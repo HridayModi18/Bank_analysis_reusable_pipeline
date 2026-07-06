@@ -1,0 +1,3 @@
+value,retention_impact,num_retention_customers,churn_impact,num_churn_customers
+Female,0.0,0,0.7796,43
+Male,-0.9824,25,0.0,0

@@ -1,0 +1,23 @@
+artifact_path: /Users/hridaymodi/Downloads/BankProject/mlruns/1/models/m-0ea5a565b795421d9eb45b180f2b877c/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.14.3
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.14.0
+model_id: m-0ea5a565b795421d9eb45b180f2b877c
+model_size_bytes: 9172
+model_uuid: m-0ea5a565b795421d9eb45b180f2b877c
+prompts: null
+run_id: f7e88400d95f452abb73539982612b9b
+utc_time_created: '2026-06-22 17:05:16.469856'

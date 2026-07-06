@@ -1,0 +1,22 @@
+artifact_path: /Users/hridaymodi/Downloads/BankProject/mlruns/1/models/m-ed6b0a44eb8544c5bc7ba355ba10ab50/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.12.13
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: ubj
+    xgb_version: 3.3.0
+mlflow_version: 3.14.0
+model_id: m-ed6b0a44eb8544c5bc7ba355ba10ab50
+model_size_bytes: 279662
+model_uuid: m-ed6b0a44eb8544c5bc7ba355ba10ab50
+prompts: null
+run_id: b076967577444fc5888d05fff132f184
+utc_time_created: '2026-06-24 10:41:04.233218'
